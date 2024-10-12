@@ -1,4 +1,4 @@
-package com.intheeast.controller;
+package com.intheeast.controller.annotatedcontrollers;
 
 import jakarta.servlet.ServletRequest;
 import jakarta.servlet.http.HttpServletResponse;

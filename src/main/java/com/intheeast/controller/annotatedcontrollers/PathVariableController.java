@@ -1,4 +1,4 @@
-package com.intheeast.controller;
+package com.intheeast.controller.annotatedcontrollers;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;

@@ -1,4 +1,4 @@
-package com.intheeast.controller;
+package com.intheeast.controller.annotatedcontrollers;
 
 import java.util.Arrays;
 import java.util.List;

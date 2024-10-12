@@ -5,7 +5,7 @@ import org.apache.catalina.startup.Tomcat;
 
 import java.io.File;
 
-public class EmbeddedTomcatApp {
+public class SpringWebMVCApp {
 	
 	public static void main(String[] args) throws Exception {
         // 임베디드 톰캣 생성 및 설정
