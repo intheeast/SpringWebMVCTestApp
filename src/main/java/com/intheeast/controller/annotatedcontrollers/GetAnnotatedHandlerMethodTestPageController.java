@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
 @RequestMapping("/tests")
-public class GetTestPageController {
+public class GetAnnotatedHandlerMethodTestPageController {
 	
 	@GetMapping("/requestparam")
     public String getTestRequestParam() {

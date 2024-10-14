@@ -66,7 +66,7 @@ public class MyWebApplicationInitializer implements WebApplicationInitializer {
         FilterRegistration.Dynamic corsFilter = servletContext.addFilter("corsFilter", new SimpleCORSFilter());
         corsFilter.addMappingForUrlPatterns(null, false, "/*");
         
-     // SimpleCORSFilter 등록
+        // Client Filter 등록
         FilterRegistration.Dynamic clientFilter = servletContext.addFilter("clientFilter", new ClientFilter());
         clientFilter.addMappingForUrlPatterns(null, false, "/*");
     }
